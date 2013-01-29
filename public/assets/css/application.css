@@ -244,11 +244,15 @@ footer a:hover {
   height: 30px;
   width: 292px;
   margin: 0 auto 25px;
+  background: url(../images/session-sprite.png) no-repeat;
 }
 
 .agent_login h1 {
-  background: url(../images/session-sprite.png) no-repeat;
   background-position: 78px 0;
+}
+
+.agent_new h1 {
+  background-position: 24px -50px;
 }
 
 .form_cage .textbox {
