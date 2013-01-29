@@ -410,6 +410,12 @@ table.form_table td {
   background: url(../images/add-photo.png) no-repeat;
 }
 
+.form_table .hotel_photo {
+  width: 220px;
+  height: 220px;
+  background: #869696;
+}
+
 input.input_photo {
   width: 220px;
 }
