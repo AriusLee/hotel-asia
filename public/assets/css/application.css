@@ -88,9 +88,11 @@ p, h1, h2, h3, h4, h5 {
   float: right;
 }
 
-.btn_blue {
+.btn_blue, .btn_blue:visited {
   border: none;
   outline: none;
+  text-align: center;
+  line-height: 37px;
   width: 265px;
   height: 37px;
   background: url(../images/btn-blue.png) no-repeat;
@@ -100,10 +102,21 @@ p, h1, h2, h3, h4, h5 {
   padding-bottom: 3px;
 }
 
+.btn_blue:hover {
+  color: rgba(255,255,255,0.95);
+}
+
 #logo_link {
   width: 176px;
   height: 60px;
   background: url(../images/logo.png) no-repeat;
+}
+
+.agent_panel #logo_link {
+  width: 128px;
+  height: 45px;
+  background: url(../images/logo-2.png) no-repeat;
+  margin: 6px 10px 6px 0;
 }
 
 header {
@@ -113,6 +126,20 @@ header {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.agent_panel header {
+  padding: 0;
+  height: 57px;
+  position: static;
+  border: none;
+  background: #070707;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.45);
+}
+
+.agent_panel header > .container {
+  background: url(../images/gradient-header.png) no-repeat;
+  background-position: -50px 0;
 }
 
 #tagline {
@@ -297,6 +324,119 @@ footer a:hover {
 
 .form_footer a:hover {
   text-decoration: underline;
+}
+
+.agent_panel {
+  background: url(../images/bg-agent.png);
+}
+
+.agent_panel footer {
+  background: none;
+  border: none;
+  text-shadow: 0 1px #fff;
+  color: #999;
+  box-shadow: none;
+}
+
+header .agent_name {
+  color: #868686;
+  text-shadow: 0 -1px #000;
+  padding-top: 29px;
+  text-transform: uppercase;
+  font-family: helvetica neue, arial, sans-serif;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+.agent_panel header .pull_right a {
+  width: 79px;
+  height: 28px;
+  text-align: center;
+  color: #868686;
+  text-shadow: 0 -1px #000;
+  padding-top: 29px;
+  font-family: helvetica neue, arial, sans-serif;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+.agent_panel header .pull_right a.current,
+.agent_panel header .pull_right a:hover {
+  background: url(../images/highlight-header.png) no-repeat;
+  color: #ccc;
+}
+
+.agent_panel section {
+  min-height: 500px;
+  padding-bottom: 35px;
+}
+
+.counter {
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: normal;
+  color: #C1272D;
+}
+
+.agent_panel header .container {
+  position: relative;
+}
+
+.agent_panel header .pull_right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.agent_panel .form_row {
+  border-radius: 4px;
+  box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.35);
+  background: rgba(255,255,255,0.45);
+  padding: 15px;
+}
+
+table.form_table {
+  text-align: left;
+}
+
+table.form_table td {
+  padding-right: 15px;
+}
+
+.add_photo {
+  width: 220px;
+  height: 220px;
+  margin-bottom: 10px;
+  background: url(../images/add-photo.png) no-repeat;
+}
+
+input.input_photo {
+  width: 220px;
+}
+
+table.form_table label {
+  display: block;
+  font-size: 12px;
+  color: #808080;
+  margin-bottom: 5px;
+}
+
+table.form_table input.textbox,
+table.form_table textarea.textbox {
+  display: block;
+  height: 20px;
+  padding: 4px 6px;
+  width: 400px;
+  margin-bottom: 14px;
+}
+
+table.form_table textarea.textbox {
+  height: 100px;
+  resize: none;
+}
+
+table.form_table input.textbox.short {
+  width: 248px;
 }
 
 /*
