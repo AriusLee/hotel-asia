@@ -88,6 +88,18 @@ p, h1, h2, h3, h4, h5 {
   float: right;
 }
 
+.btn_blue {
+  border: none;
+  outline: none;
+  width: 265px;
+  height: 37px;
+  background: url(../images/btn-blue.png) no-repeat;
+  color: #fff;
+  text-shadow: 0 -1px #043973;
+  letter-spacing: 1px;
+  padding-bottom: 3px;
+}
+
 #logo_link {
   width: 176px;
   height: 60px;
@@ -205,6 +217,77 @@ footer a, footer a:visited {
 }
 
 footer a:hover {
+  text-decoration: underline;
+}
+
+/* AGENT */
+.new_agent_session,
+.new_agent_session footer {
+  background: #070707;
+}
+
+.new_agent_session section {
+  min-height: 585px;
+  padding-top: 80px;
+  background: url(../images/gradient-session.png) no-repeat;
+  background-position: center 80px;
+}
+
+.new_agent_session .form_cage {
+  width: 300px;
+  padding: 45px 15px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form_cage h1 {
+  height: 30px;
+  width: 292px;
+  margin: 0 auto 25px;
+}
+
+.agent_login h1 {
+  background: url(../images/session-sprite.png) no-repeat;
+  background-position: 78px 0;
+}
+
+.form_cage .textbox {
+  width: 262px;
+  height: 38px;
+  margin: 0 auto;
+  padding-right: 13px;
+  padding-top: 8px;
+  text-align: right;
+  background: url(../images/textbox-sprite.png) no-repeat;
+}
+
+.form_cage .textbox.email {
+  background-position: 0 -50px;
+}
+
+.form_cage .textbox.password {
+  background-position: 0 -100px;
+}
+
+.form_cage .textbox input {
+  height: 24px;
+  width: 205px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.form_cage .btn_blue {
+  margin-top: 4px;
+}
+
+.form_footer a {
+  color: #666666;
+  font-size: 13px;
+  padding-top: 6px;
+}
+
+.form_footer a:hover {
   text-decoration: underline;
 }
 
