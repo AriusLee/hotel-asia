@@ -416,6 +416,12 @@ table.form_table td {
   background: #869696;
 }
 
+.form_table select {
+  display: inline-block;
+  width: 268px;
+  margin-bottom: 10px;
+}
+
 input.input_photo {
   width: 220px;
 }
