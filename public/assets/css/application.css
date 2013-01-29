@@ -255,6 +255,10 @@ footer a:hover {
   background-position: 24px -50px;
 }
 
+.admin_login h1 {
+  background-position: 0 -100px;
+}
+
 .form_cage .textbox {
   width: 262px;
   height: 38px;
